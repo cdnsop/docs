@@ -11,6 +11,33 @@ docs.cdnsop.com - documentation
 + check before update
 + list configuration
 
+#### backup as files
+
++ domainname.com/
+  + www.txt 
+```json
+{
+ "head": [
+   "//code.jquery.com/jquery-3.5.1.min.js",
+   "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
+   "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
+   "//app.wapka.pl/css/style.css"
+ ],
+ "body": [
+   "//app.wapka.pl/html/body.html"
+ ],
+ "#form": [
+   "//app.wapka.pl/html/create.html",
+   "//app.wapka.pl/js/create.js"
+ ],
+ "#image": [
+   "//logo.wapka.pl/wapka-300.png"
+ ]
+}
+```  
+  + www.cname
+
+
 
 ### dns records update
 
