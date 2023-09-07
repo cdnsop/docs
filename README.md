@@ -14,7 +14,7 @@ docs.cdnsop.com - documentation
 #### backup as files
 
 + domainname.com/
-  + www.txt 
+  + _jloads.www.txt 
 ```json
 {
  "head": [
@@ -34,9 +34,10 @@ docs.cdnsop.com - documentation
    "//logo.wapka.pl/wapka-300.png"
  ]
 }
-```  
-  + www.cname
+```
 
+  + www.cname -> cloud provider: username.platform.com  
+  + [dns-srv-record](https://www.cloudflare.com/learning/dns/dns-records/dns-srv-record/)
 
 
 ### dns records update
