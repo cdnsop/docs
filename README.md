@@ -42,9 +42,13 @@ docs.cdnsop.com - documentation
 
 ### dns records update
 
++ setup
++ restore
+
+  
 + txt:
-  + environment: docker hub url
-  + application: git repo url
+  + docker: docker hub url
+  + code: git repo url
   + data: git repo url 
     
 + cname -> platform
