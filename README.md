@@ -40,6 +40,17 @@ docs.cdnsop.com - documentation
   + [dns-srv-record](https://www.cloudflare.com/learning/dns/dns-records/dns-srv-record/)
 
 
+### DNS records config
+
++ _code_url_git.app -> //github.com/cdnsop/docs.git	
+
++ _data_url_json.app -> //raw.githubusercontent.com/cdnsop/docs/main/README.md
+	
++ _deploy_config_json.app ->  URL for CD: docker,code,data
+	
++ _docker_url_image.app
+
+
 ### dns records update
 
 + setup
